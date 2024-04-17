@@ -1,0 +1,1047 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    
+    font-family: "Roboto", sans-serif;
+}
+.main{
+    background-color: black;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.upperheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #3c0084;
+    color: white;
+    word-spacing: 0.1rem;
+}
+.upperheader a {
+    text-decoration: none;
+    color: rgb(207, 207, 219);
+    background-color: rgb(29, 29, 29);
+    padding: 0.1rem 0.7rem;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    background: rgb(17, 17, 17);
+    padding: 0.1rem;
+    box-shadow: 0px 0px 15px #3c0084;
+}
+#logo{
+    height: 68px;
+}
+.menuitems{
+    font-size: 1.2rem;
+    display: flex;
+    gap: 1.9rem;
+}
+.menuitems a{
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.menuitems a li{
+    transition: 0.2s ease 0s;
+}
+#home{
+    color: rgb(101, 101, 253) ;
+}
+#courses:hover{
+    color: rgb(101, 101, 253) ;
+}
+#explore:hover{
+    color: rgb(101, 101, 253) ;
+}
+#contact:hover{
+    color: rgb(101, 101, 253) ;
+}
+#articles:hover{
+    color: rgb(101, 101, 253) ;
+}
+#tutorials:hover{
+    color: rgb(101, 101, 253) ;
+}
+.getstarted{
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.6rem 1.3rem;
+    background-color: rgb(131, 131, 255);
+    border-radius: 2rem;
+    border: 2px solid rgb(131, 131, 255);
+    transition: 0.2s ease 0s;
+}
+.getstarted:hover{
+    background-color: black;
+    border: 2px solid rgb(131, 131, 255);
+}
+.loginsignup{
+    display: flex;
+    gap: 1rem;
+}
+.login{
+    border: 2px solid rgb(131, 131, 255);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.7rem 1.7rem;
+    border-radius: 2rem;
+    transition: 0.2s ease 0s;
+}
+.login:hover{
+    background-color: rgb(131, 131, 255);
+}
+.explore{
+    display: flex;
+    gap: 0.5rem;
+}
+.explore select{
+    color: white;
+    border: none;
+    background-color: rgb(17, 17, 17);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.mainsec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    align-items: center;
+    padding: 5rem 13rem;
+}
+.mainheading{
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    text-shadow: 1px 1px 20px #3c0084;
+}
+.smallheading{
+    font-size: 1.3rem;
+    color: rgb(179, 179, 179);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.3rem;
+}
+.mainbuttons{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+.viewcourses{
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 1.2rem;
+    background-color: rgb(121, 121, 255);
+    border-radius: 2rem;
+    transition: 0.2s ease 0s;
+}
+.viewcourses:hover{
+    background-color: rgb(90, 90, 223);
+}
+.watchvideolive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.8rem 1.2rem;
+    background: radial-gradient(circle at 10% 20%, rgb(238, 56, 56) 0%, rgba(206, 21, 0, 0.92) 90.1%);
+    border-radius: 2rem;
+    transition: 0.2s ease 0s;
+}
+.watchvideolive a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;   
+}
+.watchvideolive:hover{
+    background: radial-gradient(circle at 10% 20%, rgb(221, 45, 45) 0%, rgba(165, 16, 0, 0.92) 90.1%);
+}
+#line{
+    color: rgb(136, 136, 136);
+    font-size: 1.2rem;
+}
+.rightmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1rem 0rem;
+}
+#man{
+    height: 420px;
+    animation: 3s linear 1s infinite alternate slidein;
+}
+#cpp{
+    height: 120px;
+}
+#cpp2{
+    height: 80px;
+}
+.lang{
+    animation-name: mananime;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+@keyframes mananime{
+    0%{
+        opacity: 0.4;
+    }
+    100%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+#javascript{
+    height: 90px;
+}
+#javascript2{
+    height: 65px;
+    margin-top: 1rem;
+}
+.studentspicsfollowers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.students{
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 2px solid orange;
+    border-radius: 5rem;
+    background-color: rgb(31, 31, 31);
+}
+.stupics{
+    display: flex;
+    gap: 0;
+}
+#stu{
+    margin: -0.3rem;
+    overflow: hidden;
+    height: 40px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid white;
+    transition: 0.2s linear 0.2s;
+}
+#seventyth{
+    color: white;
+    font-size: 1.1rem;
+}
+#stu:hover{
+    transform: scale(1.2);
+}
+.studentspicsfollowers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.SMfollowers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    border: 1.4px solid gray;
+    border-radius: 0.8rem;
+    padding: 1.3rem 1.2rem;
+}
+#followers{
+    font-size: 2rem;
+}
+#platform{
+    font-size: 1.02rem;
+    color: rgb(128, 128, 128);
+    word-spacing: 0.1rem;
+}
+.bulb{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    margin-top: 3rem;
+}
+.bulbicon{
+    padding: 3rem 13rem;  
+}
+#bulb{
+    height: 75px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 131);
+    border: 2px solid rgb(187, 143, 0);
+    animation-name: lovebbar;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+@keyframes lovebbar{
+    100%{
+        box-shadow:01px 0px 150px yellow;
+    }
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#articlebulb{
+    height: 45px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 131);
+    border: 2px solid rgb(187, 143, 0);
+}
+#articlebook{
+    height: 45px;
+    border-radius: 100%;
+    background-color: rgb(0, 58, 167);
+    border: 2px solid rgb(93, 190, 255);
+}
+.articlesandletsconnect{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2rem;
+    color: white;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    color: white;
+}
+#arthead{
+    font-size: 1.3rem;
+}
+.artabout{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: rgb(160, 160, 160);
+}
+.letsconnect{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4rem;
+    padding: 1rem 3rem;
+}
+#whywereyour{
+    font-size: 1.4rem;
+    color: rgba(71, 249, 255, 0.92);
+}
+.lestconnecthead{
+    font-size: 2.5rem;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+
+}
+#aboutletsconnect{
+    color: rgb(136, 136, 136);
+    font-size: 1.1rem;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+#letsconnectbutton{
+    font-size: 1.1rem;
+}
+.aboutandconnectbutton{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.bulb{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
+.bulbicon2{
+    padding: 3rem 13rem;
+}
+#bulb2{
+    height: 75px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 131);
+    border: 2px solid rgb(0, 128, 187);
+    /* */
+    animation-name: lovebbar2;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+@keyframes lovebbar2{
+    100%{
+        box-shadow: 1px 1px 150px rgb(0, 217, 255); 
+    }
+}
+.aboutsec{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+#articlegame{
+    height: 45px;
+    border-radius: 100%;
+    background-color: rgb(153, 98, 255);
+    border: 2px solid rgb(163, 0, 212);
+}
+.bulbicon2{
+    display: flex;
+    justify-content: flex-end;  
+}
+.aboutcompiler{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    color: white;
+}
+.compilerheading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 8rem;
+}
+.bulbicon3{
+    padding-top: 3rem;
+    padding: 1rem 13rem;
+}
+#bulb3{
+    height: 75px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 131);
+    border: 2px solid rgb(0, 128, 187);
+    /*  */
+    animation-name: lovebbar3;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+@keyframes lovebbar3{
+    100%{
+        box-shadow: 1px 1px 150px rgb(255, 201, 201); 
+    }
+}
+.quickcompiler{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.aboutcompiler{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+#quiccompiler{
+    font-size: 1.3rem;
+    color: rgb(42, 141, 255);
+}
+.compilerhead{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.tryityourself{
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 1.2rem;
+    background-color: rgb(121, 121, 255);
+    border-radius: 2rem;
+    transition: 0.2s ease 0s;
+    margin-top: 2rem;
+}
+.tryityourself:hover{
+    background-color: rgb(90, 90, 223);
+}
+#htmleditor{
+    height: 400px;
+}
+.fruitboxcompiler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 10rem;
+}
+.letsconnect2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.pic{
+    margin-top: 2rem;
+}
+#fruitboxflex{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgba(68, 165, 255, 0.92);
+}
+#quickcompiler{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgba(19, 255, 176, 0.92);
+}
+.fivityplus{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+#fivityplus{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: grey;
+}
+.language{
+    display: flex;
+    gap: 1.5rem;
+}
+.codehelpadv{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.codehelpadvhead{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    color: white;
+    margin-top: 5rem;
+    padding: 5rem 8rem;
+}
+#codehelpadvheading{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.codehelpadvabout{
+    display: flex;
+    flex-direction: column;
+    color: rgb(202, 202, 202);
+    font-size: 1.2rem;
+}
+.articleofcodehelpadv{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+}
+.leftarticleline{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+#tickicon{
+    height: 30px;
+}
+.leftarticle{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+#graph{
+    height: 260px;
+}
+#line{
+    color: white;
+    font-size: 1.2rem;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    padding-bottom: 5rem;
+}
+.coursesheading{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+    margin-top: 8rem;
+}
+#learn{
+    color: rgb(89, 89, 255);
+}
+.coursecards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+#courseheading{
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+.cardone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    background-color: rgb(31, 31, 31);
+
+    padding: 1.2rem 1.2rem;
+    border-radius: 1.2rem;
+}
+#cardpic{
+    height: 220px;
+    border-radius: 1rem;
+}
+#cardheading{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.coursename{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.price{
+    display: flex;
+    gap: 1.3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+#realprice{
+    color: rgb(132, 132, 255);
+    font-weight: 600;
+}
+.uppercourse{
+    display: flex;
+    gap: 10rem;
+}
+.recordedcoursesheading{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+    margin-top: 3rem;
+}
+.recordedlowercards{
+    color: white;
+    display: flex;
+    gap: 0rem;
+    padding: 3rem 6rem;
+    justify-content: space-evenly;
+    transition: 0.3s ease 0s;
+}
+.ourinstructervhead{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    color: white;
+    margin-top: 1rem;
+    padding: 0rem 8rem;
+}
+.ourinstarticle{
+    background-image: url();
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    background-color: rgb(21, 21, 29);
+    padding: 1rem 2rem;
+}
+/* #lovebabbarpic{
+    animation-name: lovebbar;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+} */
+/* @keyframes lovebbar{
+    100%{
+        transform: scale(1.1);
+    }
+} */
+.ourinstarticle{
+    margin: 4rem 12rem;
+    border-radius: 1.5rem;
+}
+.aboutlovebabbarhead{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#lovebabbarpic{
+    height: 400px;
+    transition: 0.1s ease 0s;
+}
+#lovebabbarpic{
+    transform: scale(1.11);
+}
+.aboutlovebabbar{
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+.allaboutaboutlovebabbar{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    color: white;
+    /* text-shadow: 1px 1px 10px black; */
+}
+.aboutlovebabbarpara{
+    font-size: 1.28rem;
+    font-weight: 400;
+    color: rgb(194, 194, 194);
+}
+.aboutlovebabbarexp{
+    font-size: 1.4rem;
+}
+.foot{
+    background-color: white;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 5rem;
+}
+.signupheading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.signuphead{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    align-items: center;
+    font-weight: 500;
+}
+.signuppara{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    align-items: center;
+    color: rgb(63, 63, 63);
+}
+.articles2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid  rgb(228, 228, 228);
+    padding: 2rem 5rem;
+    padding-right: 10rem;
+    border-radius: 2rem;
+}
+#arthead2{
+    color: black;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: rgb(236, 221, 0);
+}
+#arthead3{
+    color: black;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: rgb(0, 99, 212);
+}
+#arthead4{
+    color: black;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: rgb(147, 15, 255);
+}
+.artabout2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: rgb(94, 88, 88);
+}
+.signupmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+}
+.signupsec{
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 6rem;
+    border-radius: 2rem;
+    border: 2px solid rgb(228, 228, 228);
+    margin: -10rem;
+    background-color: white;
+}
+.continuewithgoogle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid  rgb(228, 228, 228);
+    border-radius: 3rem;
+    padding: 0.6rem 1.8rem;
+    gap: 1.5rem;
+}
+#google{
+    height: 30px;
+}
+.continuewithgoogle span{
+    font-size: 1.2rem;
+    font-weight: 400;
+} 
+.emaailregister{
+    display: flex;
+    gap: 3.5rem;
+    color: rgb(182, 182, 182);
+}
+.enteryouremail{
+    display: flex;
+    justify-content: flex-start;
+}
+#enteremail{
+    font-size: 1.3rem;
+    padding: 0.6rem 2rem;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 2rem;
+}
+.donthaveacc a{
+    color: black;
+    text-decoration: none;
+}
+.donthaveacc a:hover{
+    text-decoration: underline;
+}
+.getstartedbutto{
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: rgb(115, 115, 255);
+    padding: 0.8rem 3.5rem;
+    border-radius: 2rem;
+    color: white;
+    transition: 0.1s ease 0s;
+    margin-top: 0.5rem;
+}
+.getstartedbutto:hover{
+    background-color:rgb(89, 89, 255) ;
+}
+.socialmedialinks{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+.links{
+    padding: 8rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+.linkone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+}
+#link{
+    height: 18px;
+}
+.textlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+#linkname{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: red;
+}
+#youtube{
+    height: 80px;
+    background-color: white;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 100%;
+}
+.textlink a{
+    text-decoration: none;
+}
+#linkname2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(0, 132, 209);
+}
+#linkname3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(102, 20, 255);
+}
+#linkname4{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(1, 202, 238);
+}
+.talktous{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem;
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    margin: 0rem 10rem;
+    border-radius: 1.5rem;
+    margin-bottom: -3rem;
+}
+.talktoushead{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+
+}
+.getstartedbutton{
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: white;
+    padding: 0.8rem 3.5rem;
+    border-radius: 2rem;
+    color: rgb(115, 115, 255);
+    transition: 0.1s ease 0s;
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+.getstartedbutton:hover{
+    background-color:rgb(228, 228, 228) ;
+}
+.footer2{
+    background-color: rgb(41, 42, 54);
+}
+#codehelplogo{
+    height: 60px;
+    width: 220px;
+}
+.leftfooter{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 400;
+    gap: 1rem;
+}
+.rightfooter{
+    display: flex;
+    gap: 5rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+    padding: 10rem 3rem;
+    color: white;
+}
+.footerlinks{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+#linkhead{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+#quicklinks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    font-size: 1.2rem;
+    color: rgb(187, 187, 187);
+    font-weight: 400;
+}
+#quicklinks li{
+    list-style: none;
+}
+.coypright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    background-color: rgb(41, 42, 54);
+    color: white;
+    padding-bottom: 1.5rem;
+}
